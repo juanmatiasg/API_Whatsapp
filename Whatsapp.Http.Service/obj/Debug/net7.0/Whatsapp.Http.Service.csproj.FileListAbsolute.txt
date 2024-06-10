@@ -1,0 +1,17 @@
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\bin\Debug\net7.0\Whatsapp.Http.Service.deps.json
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\bin\Debug\net7.0\Whatsapp.Http.Service.dll
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\bin\Debug\net7.0\Whatsapp.Http.Service.pdb
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\bin\Debug\net7.0\Whatsapp.DTOs.dll
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\bin\Debug\net7.0\Whatsapp.Entities.dll
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\bin\Debug\net7.0\Whatsapp.DTOs.pdb
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\bin\Debug\net7.0\Whatsapp.Entities.pdb
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\obj\Debug\net7.0\Whatsapp.Http.Service.csproj.AssemblyReference.cache
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\obj\Debug\net7.0\Whatsapp.Http.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\obj\Debug\net7.0\Whatsapp.Http.Service.AssemblyInfoInputs.cache
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\obj\Debug\net7.0\Whatsapp.Http.Service.AssemblyInfo.cs
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\obj\Debug\net7.0\Whatsapp.Http.Service.csproj.CoreCompileInputs.cache
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\obj\Debug\net7.0\Whatsapp.Http.Service.csproj.CopyComplete
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\obj\Debug\net7.0\Whatsapp.Http.Service.dll
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\obj\Debug\net7.0\refint\Whatsapp.Http.Service.dll
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\obj\Debug\net7.0\Whatsapp.Http.Service.pdb
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Http.Service\obj\Debug\net7.0\ref\Whatsapp.Http.Service.dll

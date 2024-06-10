@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Whatsapp.UseCasesPorts/1.0.0": {
+        "dependencies": {
+          "Whatsapp.DTOs": "1.0.0"
+        },
+        "runtime": {
+          "Whatsapp.UseCasesPorts.dll": {}
+        }
+      },
+      "Whatsapp.DTOs/1.0.0": {
+        "dependencies": {
+          "Whatsapp.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Whatsapp.DTOs.dll": {}
+        }
+      },
+      "Whatsapp.Entities/1.0.0": {
+        "runtime": {
+          "Whatsapp.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Whatsapp.UseCasesPorts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Whatsapp.DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Whatsapp.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

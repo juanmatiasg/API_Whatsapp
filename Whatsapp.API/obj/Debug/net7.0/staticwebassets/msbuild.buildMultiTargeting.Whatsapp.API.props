@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Whatsapp.API.props" />
+</Project>

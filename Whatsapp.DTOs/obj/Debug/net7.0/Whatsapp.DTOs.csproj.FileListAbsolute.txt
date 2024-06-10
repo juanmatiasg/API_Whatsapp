@@ -1,0 +1,15 @@
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\bin\Debug\net7.0\Whatsapp.DTOs.deps.json
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\bin\Debug\net7.0\Whatsapp.DTOs.dll
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\bin\Debug\net7.0\Whatsapp.DTOs.pdb
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\bin\Debug\net7.0\Whatsapp.Entities.dll
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\bin\Debug\net7.0\Whatsapp.Entities.pdb
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\obj\Debug\net7.0\Whatsapp.DTOs.csproj.AssemblyReference.cache
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\obj\Debug\net7.0\Whatsapp.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\obj\Debug\net7.0\Whatsapp.DTOs.AssemblyInfoInputs.cache
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\obj\Debug\net7.0\Whatsapp.DTOs.AssemblyInfo.cs
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\obj\Debug\net7.0\Whatsapp.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\obj\Debug\net7.0\Whatsapp.DTOs.csproj.CopyComplete
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\obj\Debug\net7.0\Whatsapp.DTOs.dll
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\obj\Debug\net7.0\refint\Whatsapp.DTOs.dll
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\obj\Debug\net7.0\Whatsapp.DTOs.pdb
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.DTOs\obj\Debug\net7.0\ref\Whatsapp.DTOs.dll

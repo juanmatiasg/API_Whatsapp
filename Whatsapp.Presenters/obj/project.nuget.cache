@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gk5ok2RGN9X1DYF7INa/LsXDwjifpKtwulCEYph57/XQokjCdVMt8bZcqcr43vbbIhQdDHiaG/uhns0wyPPyGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.Presenters\\Whatsapp.Presenters.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jguerrer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

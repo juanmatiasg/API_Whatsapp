@@ -1,0 +1,296 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Whatsapp.DTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Whatsapp.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Whatsapp.DTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Whatsapp.DTOs.dll": {}
+        }
+      },
+      "Whatsapp.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Whatsapp.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Whatsapp.Entities.dll": {}
+        }
+      },
+      "Whatsapp.Http.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Newtonsoft.Json": "13.0.3",
+          "Whatsapp.DTOs": "1.0.0",
+          "Whatsapp.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Whatsapp.Http.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Whatsapp.Http.Service.dll": {}
+        }
+      },
+      "Whatsapp.Presenters/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Whatsapp.DTOs": "1.0.0",
+          "Whatsapp.UseCasesPorts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Whatsapp.Presenters.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Whatsapp.Presenters.dll": {}
+        }
+      },
+      "Whatsapp.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Whatsapp.DTOs": "1.0.0",
+          "Whatsapp.Entities": "1.0.0",
+          "Whatsapp.Http.Service": "1.0.0",
+          "Whatsapp.UseCasesPorts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Whatsapp.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Whatsapp.UseCases.dll": {}
+        }
+      },
+      "Whatsapp.UseCasesPorts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Whatsapp.DTOs": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Whatsapp.UseCasesPorts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Whatsapp.UseCasesPorts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+      "sha512": "fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Whatsapp.DTOs/1.0.0": {
+      "type": "project",
+      "path": "../Whatsapp.DTOs/Whatsapp.DTOs.csproj",
+      "msbuildProject": "../Whatsapp.DTOs/Whatsapp.DTOs.csproj"
+    },
+    "Whatsapp.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Whatsapp.Entities/Whatsapp.Entities.csproj",
+      "msbuildProject": "../Whatsapp.Entities/Whatsapp.Entities.csproj"
+    },
+    "Whatsapp.Http.Service/1.0.0": {
+      "type": "project",
+      "path": "../Whatsapp.Http.Service/Whatsapp.Http.Service.csproj",
+      "msbuildProject": "../Whatsapp.Http.Service/Whatsapp.Http.Service.csproj"
+    },
+    "Whatsapp.Presenters/1.0.0": {
+      "type": "project",
+      "path": "../Whatsapp.Presenters/Whatsapp.Presenters.csproj",
+      "msbuildProject": "../Whatsapp.Presenters/Whatsapp.Presenters.csproj"
+    },
+    "Whatsapp.UseCases/1.0.0": {
+      "type": "project",
+      "path": "../Whatsapp.UseCases/Whatsapp.UseCases.csproj",
+      "msbuildProject": "../Whatsapp.UseCases/Whatsapp.UseCases.csproj"
+    },
+    "Whatsapp.UseCasesPorts/1.0.0": {
+      "type": "project",
+      "path": "../Whatsapp.UseCasesPorts/Whatsapp.UseCasesPorts.csproj",
+      "msbuildProject": "../Whatsapp.UseCasesPorts/Whatsapp.UseCasesPorts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.1",
+      "Whatsapp.Http.Service >= 1.0.0",
+      "Whatsapp.Presenters >= 1.0.0",
+      "Whatsapp.UseCases >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jguerrer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.IoC\\Whatsapp.IoC.csproj",
+      "projectName": "Whatsapp.IoC",
+      "projectPath": "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.IoC\\Whatsapp.IoC.csproj",
+      "packagesPath": "C:\\Users\\jguerrer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.IoC\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jguerrer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.Http.Service\\Whatsapp.Http.Service.csproj": {
+              "projectPath": "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.Http.Service\\Whatsapp.Http.Service.csproj"
+            },
+            "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.Presenters\\Whatsapp.Presenters.csproj": {
+              "projectPath": "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.Presenters\\Whatsapp.Presenters.csproj"
+            },
+            "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.UseCases\\Whatsapp.UseCases.csproj": {
+              "projectPath": "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.UseCases\\Whatsapp.UseCases.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
