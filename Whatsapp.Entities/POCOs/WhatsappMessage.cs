@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,17 @@ namespace Whatsapp.Entities.POCOs
 {
     public class WhatsappMessage
     {
-        public string MessagingProduct { get; set; } = "whatsapp";
-        public string To { get; set; }
-        public string Type { get; set; } = "template";
-        public Template Template { get; set; }
+        [JsonProperty("messaging_product")]
+        public object MessagingProduct { get; set; } = "whatsapp";
 
+        [JsonProperty("to")]
+        public string To { get; set; }
+
+        [JsonProperty("type")]
+        public string Type { get; set; } = "template";
+
+        [JsonProperty("template")]
+        public Template Template { get; set; }
+        
     }
 }

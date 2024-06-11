@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0WTDz5vr5I19T5NldiowArlwH3MMSn89VGVk8P1T5vFb9szz3br/vWhi377Mx1BpUQaHbcf1fLh3O9YiZ5Nq9w==",
+  "dgSpecHash": "8f5p9bSQsGeUyNn3tnLwfxRf9HUhPyKYte3P5uSsq0WCyoAQNOKGrdH1fZAwxv0+i3QiFc3UVtCHouMqjm8fhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.UseCasesPorts\\Whatsapp.UseCasesPorts.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jguerrer\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

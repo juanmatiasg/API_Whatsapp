@@ -20,8 +20,6 @@ namespace Whatsapp.UseCases
             _outputPort = outputPort;
         }
 
-
-
         public async Task Handle(SendMessageRequestDTO request)
         {
             var message = new WhatsappMessage
@@ -29,10 +27,10 @@ namespace Whatsapp.UseCases
                 To = request.TelephoneNumber,
                 Template = new Template
                 {
-                    Name = "hello_world",
+                    Name = "holamundo",
                     Language = new Language
                     {
-                        Code = "en_US"
+                        Code = "es_AR"
                     }
                 }
             };

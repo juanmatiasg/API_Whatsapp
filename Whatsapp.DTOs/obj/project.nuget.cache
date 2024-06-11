@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YIA+OvLnN6EYKLbg4VkfOhh+Lv4oyS1BnhTitKCtFNurPmsjYEZ4JZtL0xMHNzjkj9KkLaWfmB0RaYuAFnOQYw==",
+  "dgSpecHash": "tbpKuQLnIqqjZ2ryxRe3dS58LvxoUATk/VKSVRpK0kEcPf4mC438/hxX1u4d0DC9VmJmmCDmaF6Y3iXyEZDRpw==",
   "success": true,
   "projectFilePath": "C:\\Users\\jguerrer\\source\\repos\\CleanArquitecture_Whatsapp\\Whatsapp.DTOs\\Whatsapp.DTOs.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jguerrer\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

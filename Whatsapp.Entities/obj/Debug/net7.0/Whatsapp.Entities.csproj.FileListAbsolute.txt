@@ -9,3 +9,4 @@ C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Entities\obj\
 C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Entities\obj\Debug\net7.0\refint\Whatsapp.Entities.dll
 C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Entities\obj\Debug\net7.0\Whatsapp.Entities.pdb
 C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Entities\obj\Debug\net7.0\ref\Whatsapp.Entities.dll
+C:\Users\jguerrer\source\repos\CleanArquitecture_Whatsapp\Whatsapp.Entities\obj\Debug\net7.0\Whatsapp.Entities.csproj.AssemblyReference.cache

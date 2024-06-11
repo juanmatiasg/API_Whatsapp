@@ -27,7 +27,7 @@ namespace Whatsapp.Http.Service
             {
                 messaging_product = message.MessagingProduct,
                 to = message.To,
-                type = "template",
+                type = message.Type,
                 template = new
                 {
                     name = message.Template.Name,
@@ -43,7 +43,10 @@ namespace Whatsapp.Http.Service
 
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", TOKEN);
 
-            HttpResponseMessage response = await PostAsJsonAsync(URL, requestContent);
+            // Log the payload for debugging
+            Console.WriteLine("Sending payload: " + jsonMessage);
+
+            var response = await _httpClient.PostAsync(URL, requestContent);
 
             var result = new SendMessageResponseDTO();
 
@@ -57,14 +60,14 @@ namespace Whatsapp.Http.Service
             {
                 var responseBody = await response.Content.ReadAsStringAsync();
                 result.Success = false;
-                result.Message = $"Error sending message: {response.StatusCode}";
+                result.Message = $"Error sending message: {response.StatusCode} {responseBody}";
                 result.Data = message;
             }
 
             return result;
         }
 
-        
-    
+
+
     }
 }
